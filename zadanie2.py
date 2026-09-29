@@ -75,3 +75,56 @@ print(price_per_kg)
 print(price_for_Y)
 
 
+X = float(input())
+A = float(input())
+Y = float(input())
+B = float(input())
+price_choco = A / X
+price_toffee = B / Y
+ratio = price_choco / price_toffee
+print(price_choco)
+print(price_toffee)
+print(ratio)
+
+
+
+V = float(input())
+U = float(input())
+T1 = float(input())
+T2 = float(input())
+S = V * T1 + (V - U) * T2
+print(S)
+
+
+
+V1 = float(input())
+V2 = float(input())
+S = float(input())
+T = float(input())
+total_distance = S + T * (V1 + V2)
+print(total_distance)
+
+
+
+
+M = int(input())
+tons = M // 1000
+print(tons)
+
+
+
+bytes_size = int(input())
+kilobytes = bytes_size // 1024
+print(kilobytes)
+
+
+
+A = int(input())
+B = int(input())
+count = A // B
+print(count)
+
+
+
+
+
