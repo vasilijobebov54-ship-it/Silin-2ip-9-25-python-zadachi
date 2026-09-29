@@ -34,11 +34,7 @@ print()
 choice = input()
 # ответ пока не используем — разберём на 3 занятии
 print()
-# Прощание
-frame1 = "=" * 55
-print(frame1)
-print(f"Вы покидаете подземелье мастера. Удачи, {hero_name}!")
-print(frame1)
+
 
 # --- Настройка героя -------------------------------
 print("Настройка героя.")
@@ -58,3 +54,9 @@ print(f"Ловкость: {agility}")
 print()
 print(f"Урон героя: {damage:.1f}")
 print(f"Критический урон: {crit_damage:.1f}")
+
+# Прощание
+frame1 = "=" * 55
+print(frame1)
+print(f"Вы покидаете подземелье мастера. Удачи, {hero_name}!")
+print(frame1)
