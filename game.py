@@ -11,7 +11,7 @@
 
 
 title = "DUNGEON MASTER"
-frame = "=" * 14
+frame = "=" * 17
 print(frame)
 print(" " + title + " ")
 print(frame)
@@ -29,3 +29,13 @@ print("2 - идти вперёд")
 print("3 - отдохнуть")
 print("4 - посмотреть в карман")
 print("5 - свериться с картой")
+print()
+# --- Выбор героя -----------------------------------
+choice = input()
+# ответ пока не используем — разберём на 3 занятии
+print()
+# Прощание
+frame1 = "=" * 55
+print(frame1)
+print(f"Вы покидаете подземелье мастера. Удачи, {hero_name}!")
+print(frame1)
