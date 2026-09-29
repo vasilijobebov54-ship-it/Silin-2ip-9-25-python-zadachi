@@ -39,3 +39,22 @@ frame1 = "=" * 55
 print(frame1)
 print(f"Вы покидаете подземелье мастера. Удачи, {hero_name}!")
 print(frame1)
+
+# --- Настройка героя -------------------------------
+print("Настройка героя.")
+print("Здоровье, сила, ловкость, выносливость — по одному числу в строке:")
+health = int(input())
+strength = int(input())
+agility = int(input())
+# --- Расчёт урона ----------------------------------
+base_attack = 10
+damage = base_attack + strength * 1.5
+crit_damage = damage * 2
+# --- Формуляр героя --------------------------------
+print("Характеристики героя:")
+print(f"Здоровье: {health}")
+print(f"Сила: {strength}")
+print(f"Ловкость: {agility}")
+print()
+print(f"Урон героя: {damage:.1f}")
+print(f"Критический урон: {crit_damage:.1f}")
