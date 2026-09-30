@@ -57,6 +57,69 @@ else:
     print("не одинаковая")
 
 
+A = int(input())
+B = int(input())
+C = int(input())
+if A > 0 or B > 0 or C > 0:
+    print("какое то из чисел положительное")
+else:
+    print("ни одно не положительное")
+
+
+
+num = int(input("Введите целое число: "))
+if num > 0:
+    num = num + 1
+print(num)
+
+
+num = int(input("Введите целое число: "))
+if num > 0:
+    num += 1
+else:
+    num -= 2
+print(num)
+
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+count = 0
+if a > 0:
+    count += 1
+if b > 0:
+    count += 1
+if c > 0:
+    count += 1
+print("Количество положительных чисел:", count)
+
+
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+positive_count = 0
+negative_count = 0
+if a > 0:
+    positive_count += 1
+elif a < 0:
+    negative_count += 1
+if b > 0:
+    positive_count += 1
+elif b < 0:
+    negative_count += 1
+if c > 0:
+    positive_count += 1
+elif c < 0:
+    negative_count += 1
+print("Количество положительных чисел:", positive_count)
+print("Количество отрицательных чисел:", negative_count)
+
+
+
+
+
+
+
 
 
 
