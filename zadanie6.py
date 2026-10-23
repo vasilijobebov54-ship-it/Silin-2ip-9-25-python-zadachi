@@ -32,3 +32,10 @@ else:
     print(result)
 finally:
     print("вычисление завершено")
+
+word = input("введите строку: ")
+index = int(input("введите индекс: "))
+try:
+    print(word[index])
+except indexerror:
+    print("нет такого символа")
