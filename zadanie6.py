@@ -20,3 +20,15 @@ except valueerror:
     print("ошибка ввода")
 except zerodivisionerror:
     print("делить на ноль нельзя")
+
+try:
+    n = int(input("введите целое число: "))
+    result = 100 / n
+except valueerror:
+    print("ошибка ввода")
+except zerodivisionerror:
+    print("делить на ноль нельзя")
+else:
+    print(result)
+finally:
+    print("вычисление завершено")
