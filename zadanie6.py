@@ -11,3 +11,12 @@ try:
     print(f"{result:.1f}")
 except zerodivisionerror:
     print("делить на ноль нельзя")
+
+try:
+    a = int(input("введите первое число: "))
+    b = int(input("введите второе число: "))
+    print(a / b)
+except valueerror:
+    print("ошибка ввода")
+except zerodivisionerror:
+    print("делить на ноль нельзя")
